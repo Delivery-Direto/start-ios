@@ -21,6 +21,8 @@
 		785A9DBD24742A780074714F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 785A9DBC24742A780074714F /* Main.storyboard */; };
 		785A9DBF247433D90074714F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A9DBE247433D90074714F /* NetworkManager.swift */; };
 		785A9DC32474368D0074714F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A9DC22474368D0074714F /* Restaurant.swift */; };
+		785A9DD9247556C40074714F /* GenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A9DD8247556C40074714F /* GenericCell.swift */; };
+		785A9DDB247556DA0074714F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785A9DDA247556DA0074714F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		785A9DBC24742A780074714F /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		785A9DBE247433D90074714F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		785A9DC22474368D0074714F /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		785A9DD8247556C40074714F /* GenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCell.swift; sourceTree = "<group>"; };
+		785A9DDA247556DA0074714F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C693077C9BB6FB045C6F40BD /* Pods-restaurant-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-restaurant-ios.release.xcconfig"; path = "Target Support Files/Pods-restaurant-ios/Pods-restaurant-ios.release.xcconfig"; sourceTree = "<group>"; };
 		E38FFA61FD3231D8C25D5C69 /* Pods_restaurant_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_restaurant_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -179,6 +183,7 @@
 				785A9DB8247428000074714F /* CartViewController.swift */,
 				785A9DC12474366A0074714F /* Models */,
 				785A9DC0247436530074714F /* Network */,
+				785A9DD7247556860074714F /* SupportFiles */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -197,6 +202,15 @@
 				785A9DC22474368D0074714F /* Restaurant.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		785A9DD7247556860074714F /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				785A9DD8247556C40074714F /* GenericCell.swift */,
+				785A9DDA247556DA0074714F /* Extensions.swift */,
+			);
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +390,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				785A9DBF247433D90074714F /* NetworkManager.swift in Sources */,
+				785A9DDB247556DA0074714F /* Extensions.swift in Sources */,
+				785A9DD9247556C40074714F /* GenericCell.swift in Sources */,
 				785A9DB52474271A0074714F /* MainViewController.swift in Sources */,
 				785A9D80247421C80074714F /* AppDelegate.swift in Sources */,
 				785A9DC32474368D0074714F /* Restaurant.swift in Sources */,
