@@ -16,8 +16,8 @@ class MainViewController: UITabBarController {
     }
     
     fileprivate func setupViewControllers() {
-        let menuViewController = MenuViewController()
-        let cartViewController = CartViewController()
+        let menuViewController = UINavigationController(rootViewController: MenuViewController())
+        let cartViewController = UINavigationController(rootViewController: CartViewController())
         
         var menuImage: UIImage?
         var cartImage: UIImage?
